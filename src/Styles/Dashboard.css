@@ -1,0 +1,8 @@
+.dashboard-container {
+  /* border: 2px solid black; */
+  width: 80%;
+  height: 90vh;
+  justify-self: center;
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

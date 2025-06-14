@@ -1,0 +1,62 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: (0, 0, 0, 0.9);
+  background: linear-gradient(
+    rgba(6, 0, 0, 0.929),
+    rgba(14, 4, 4, 0.941),
+    rgba(8, 2, 2, 0.961),
+    rgba(7, 2, 2, 0.973)
+  );
+  height: 100vh;
+  width: 100vw;
+}
+.create-bug-container {
+  margin-top: 2rem;
+  width: 50%;
+  height: 60%;
+  overflow: scroll;
+  background-color: white;
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: column;
+  justify-self: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.create-bug-container input,
+.create-bug-container textarea,
+.create-bug-container select {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  resize: none;
+  border-radius: 0.5rem;
+}
+.create-bug-container label {
+  margin-bottom: 0.5rem;
+}
+.create-bug-container button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: green;
+  color: white;
+  border: none;
+
+  border-radius: 1rem;
+}
+#approve {
+  background-color: green;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+#goback {
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+#reopen {
+  background-color: red;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}

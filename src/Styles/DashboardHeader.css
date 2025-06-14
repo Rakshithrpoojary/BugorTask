@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.logo {
+  width: 50px;
+  padding: 0.5rem;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-name {
+  font-weight: 700;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.button-container button {
+  padding: 0.5rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+}
+#create-newbtn {
+  background-color: rgb(66, 66, 230);
+}
+#logout-btn {
+  background-color: red;
+}
