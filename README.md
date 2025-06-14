@@ -1,12 +1,20 @@
-# React + Vite
+I created a project called Bug/Task Tracker Interface. In this project, I developed a login page and a data.js file where I defined the username, email, and role of users who can log in. On the dashboard page, there are "Create Bug" and "Logout" buttons.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+While creating a bug, we can assign it to users, set its status and priority, and also edit, delete, or close the bug. When a bug is closed, its status changes to "Pending Approval", it turns grey, and all its buttons are disabled.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+When a Manager logs in, they can view all tasks and have the ability to approve or reopen closed tasks. The application also tracks the time duration of each task from the moment it's created.
 
-## Expanding the ESLint configuration
+Additionally, I implemented filters based on priority, status, and assignee.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run the project locally:
+1.Clone the repository using
+git clone https://github.com/Rakshithrpoojary/BugorTask.git
+
+2.Navigate into the project folder and run:
+npm install
+
+3.Important: In the vite.config.js file, change the following line:
+base: process.env.VITE_BASE_PATH || "/BugorTask",
+to
+base: process.env.VITE_BASE_PATH || "/",
