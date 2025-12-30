@@ -18,7 +18,7 @@ function Login() {
 
   return (
     <form id="login-container" onSubmit={(e) => LoginHandler(e, userData)}>
-      <p className="logintitle">Login User</p>
+      <p className="logintitle">Login</p>
       <label htmlFor="username">Username</label>
       <input
         onChange={onChangeHandler}
@@ -44,7 +44,7 @@ function Login() {
         type="password"
       />
       <button id="login-btn" type="submit">
-        Login
+        Signin
       </button>
     </form>
   );
