@@ -18,7 +18,7 @@ function Login() {
 
   return (
     <form id="login-container" onSubmit={(e) => LoginHandler(e, userData)}>
-      <p className="logintitle">Login</p>
+      <p className="logintitle">Login User</p>
       <label htmlFor="username">Username</label>
       <input
         onChange={onChangeHandler}
