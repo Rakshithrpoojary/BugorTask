@@ -15,7 +15,7 @@ function DashboardHeader() {
         </div>
         <div className="button-container">
           <button id="create-newbtn" onClick={ShowHide}>
-            Create new Bug
+            Create New Bug
           </button>
           <button id="logout-btn" onClick={Logout}>
             Log Out
